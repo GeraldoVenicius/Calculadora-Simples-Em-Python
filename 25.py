@@ -5,14 +5,14 @@ while True:
     print("3 - Multiplicar")
     print("4 - Dividir")
     print("5 - Sair")
-    print("----------")
+    print(10 * "-")
     escolha = int(input("Escolha uma operação ou tecle 5 para sair: "))
-    print("----------")
+    print(10 * "-")
     if escolha >= 1 and escolha <=4:
         a = float(input("Digite o primeiro numero: "))
-        print("----------")
+        print(10 * "-")
         b = float(input("Digite o segundo numero: "))
-        print("----------")
+        print(10 * "-")
         if escolha == 1:
             print(f"Resultado: {a+b}")
         elif escolha == 2:
